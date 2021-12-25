@@ -159,9 +159,6 @@
 .row{
     display:flex;
 }
-.col-12{
-    display:flex;
-}
 
 @media screen and (max-width:767px){
     .row{
@@ -240,3 +237,69 @@
     text-align:center;
 }
 /*coding for working hours ended here*/
+.left-top-button-wrapper{
+    float:right;
+    position:fixed;
+    right:0;
+    bottom:20px;
+}
+.top-button{
+    font-weight:bolder;
+    background-color:rgb(0 0 0 / 93%) !important;
+    color:white !important;
+}
+
+/*coding for the price list start here*/
+.price-list-wrapper{
+    background:url('../images/make.jpg');
+    color:white;
+    background-size:100% 100%;
+}
+
+.price-list-card{
+    box-shadow:0 0 16px rgba(0,0,0,0.7);
+}
+
+.price-list-bg{
+    background:url('../images/make.jpg');
+    color:white;
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    background-position-y:0vh;
+    min-height:35vh;
+}
+.price-list-bg2{
+    background:url('../images/7.jpg');
+    color:white;
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    background-position-y:0vh;
+    min-height:48vh;
+}
+.price-list-bg3{
+    background:url('../images/nail2.jpg');
+    color:white;
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    background-position-y:0vh;
+    min-height:48vh;
+}
+.price-list-mask{
+    background-color:rgb(0 0 0 / 86%);
+    min-height:35vh;
+    padding-top:80px;
+    padding-bottom:80px;
+}
+/*coding for the price list ended here*/
+
+
+@media screen and (min-width:768px) and (max-width:963px){
+    .price-list-card{
+        min-height:60vh;
+    }
+
+}
+
+.flex-cols{
+    display:flex;
+}
